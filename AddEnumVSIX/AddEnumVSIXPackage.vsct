@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Commands package="guidAddEnumVSIXPackage">
+    <Buttons>
+      <Button guid="guidAddEnumVSIXPackageCmdSet" id="AddItemToolWindowCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_PROJECT_ADD_MISC"/>
+        <Icon guid="ImageCatalogGuid" id="AddClass" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <Strings>
+          <ButtonText>Enum...</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidAddEnumVSIXPackage" value="{7a01e90a-6128-46a0-ab52-aa179ba14d87}" />
+    <GuidSymbol name="guidAddEnumVSIXPackageCmdSet" value="{5b336e17-1a3c-4ad2-baa0-3be121d297c5}">
+      <IDSymbol name="AddItemToolWindowCommandId" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
