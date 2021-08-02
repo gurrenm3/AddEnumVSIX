@@ -9,3 +9,5 @@ Clicking on the button will open this popup, where you can provide the name and 
 ![preview2](https://github.com/gurrenm3/AddEnumVSIX/blob/master/add%20enum%20name.png)
 
 ### Download it [here](https://marketplace.visualstudio.com/items?itemName=Thomas-Margraff.AddNewEnum)
+
+#### This project relies on my "AddItems" shared project. You can find it [here](https://github.com/gurrenm3/AddNewItem_Template.Shared)
